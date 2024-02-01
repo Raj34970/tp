@@ -1,0 +1,40 @@
+
+* {
+    touch-action: manipulation;
+}
+
+
+div#map {
+    width: 80%;
+    height: 100vh;
+    float: revert;
+    margin: auto !important;
+    filter: drop-shadow(2px 4px 6px #f2f2f2);
+}
+.topbar {
+    text-align: center;
+    margin: 50px;
+}
+.form-switch{
+    margin: 25px;
+}
+label {
+    margin-inline: 15px;
+    display: inline-block;
+}
+input#mySwitch {
+    scale: 2;
+    padding: 5px;
+    margin-inline: 23px;
+}
+
+@media (max-width: 500px){
+    div#map {
+        border-top: 4px solid #2e84cb;
+        width: 100vh;
+        height: 100vh;
+        filter: blur(0);
+        filter: brightness(1)
+    }
+
+}

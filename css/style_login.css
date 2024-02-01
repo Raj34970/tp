@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.input-feild {
+    text-align: center;
+    margin: auto;
+}
+form {
+    display: flex;
+    margin-top: 55px !important;
+    margin: auto;
+    width: fit-content;
+    background: #f2f2f2;
+    border-radius: 8px;
+}
+.input-feild{
+    padding-inline: 25px;
+}
+
+.register {
+    text-align: center;
+    margin-top: 50px;
+}
+.logo {
+    text-align: center;
+}
+input#input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #25d2c9;
+}
+
+input#submit{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #227ee9;
+    color: white;
+}

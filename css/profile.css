@@ -1,0 +1,53 @@
+
+* {
+    touch-action: manipulation;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+@media (max-width: 400px) {
+    .topBar {
+        width: 100vw;
+        padding: 10px;
+        background: #961ccd;
+        display: flex;
+    }
+    img#avatar{
+        width: 145px;
+        transform: translateY(50px);
+    }
+    .avatar-img {
+        background: #f2f2f2;
+        text-align: center;
+        border-radius: 0 0 50% 50%;
+        margin-bottom: 80px;
+    }
+    .table>thead{
+        background: #353535;
+        color: white;
+    }
+    input.tdinput {
+        border: none;
+    }
+    tr{
+        border-color: inherit;
+        border: 1px solid #f2f2f2 !important;
+        padding: 15px !important;
+        border-style: solid;
+        border-width: 0;
+    }
+    .table{
+        font-size: larger;
+    }
+    button#modify {
+        margin: 15px;
+        float: right;
+    }
+}

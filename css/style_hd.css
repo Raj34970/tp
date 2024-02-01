@@ -1,0 +1,144 @@
+
+* {
+    touch-action: manipulation;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+h1{
+    font-weight: 100 !important;
+}
+ul{
+    padding-inline: 0 !important;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 0!important;
+}
+li{
+    color: white;
+    margin: auto;
+    list-style: none;
+}
+li#head{
+    margin-left: 0 !important;
+}
+div#sidebar {
+    filter: drop-shadow(2px 4px 6px #f2f2f2de);
+    background: #232323;
+}
+input#bar-search {
+    background: white;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    min-height: 45px;
+    min-width: 240px;
+    transition: 0.4s;
+}
+input#bar-search:hover{
+    transition: 0.4s;
+    min-width: 450px;
+}
+button.header_button {
+    background: none;
+    color: white;
+    border: none;
+    padding: 15px;
+}
+button.header_button:hover{
+    background: #f2f2f2;
+    color: black;
+    border-radius: 12px;
+    padding: 15px;
+}
+.sub_catagories {
+    display: flex;
+    background: #f2f2f2;
+}
+li#sub_catagory {
+    padding: 15px;
+    color: black;
+}
+li#sub_catagory:hover{
+    cursor: pointer;
+    color: white;
+    background: #232323;
+}
+
+p.list-group-item.border-1 {
+    text-align: center;
+}
+input#form1 {
+    width: 50vh !important;
+}
+select#catagories_head {
+    background-color: #f2f2f2;
+    width: 123px !important;
+}
+button.btn.btn-primary {
+    width: 70px;
+}
+button.btn.btn-primary {
+    background-color: #f2f2f2;
+    border: 0;
+    color: black;
+}
+.input-group {
+    border: 3px solid #78e9f2;
+    border-radius: 8px;
+}
+div#address {
+    border-radius: 5px;
+    width: 150px;
+}
+li#address_bar{
+    display:inline-block; 
+    cursor: pointer; 
+    border:dotted; 
+    border-radius: 8px; 
+    padding:14px;
+    transition: 0.3s ease;
+}
+li#address_bar:hover{
+    background-color: #f2f2f2;
+    color: black;
+    border: none;
+    transition: 0.3s ease;
+}
+li#profile_bar{
+    cursor: pointer; 
+    border:dotted; 
+    border-radius: 8px;
+    padding-inline: 15px;
+}
+
+
+@media (max-width: 500px) {
+    ul{
+        display: block;
+    }
+    li{
+        margin-bottom: 25px !important;
+        text-align: center;
+        margin: auto;
+    }
+    li#address_bar{
+        margin-inline: 18%;
+    }
+    .input-group{
+        flex-wrap: initial !important;
+        border: none;
+        width: 90% !important;
+        margin: auto !important;
+    }
+    select#catagories_head{
+        width: fit-content;
+    }
+    li#search{
+        display:none;
+    }
+}
